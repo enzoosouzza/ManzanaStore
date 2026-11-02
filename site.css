@@ -1,0 +1,317 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #FFF5F7;
+   
+}
+
+a:link {
+    text-decoration: none;
+    font-size: 25px;          /* Aumenta a letra */
+    display: inline-block;    /* Permite aplicar espaçamento vertical */
+    padding: 10px 20px;    
+}
+
+a:hover {
+    color: black;
+   font-size: 25px;          /* Aumenta a letra */
+  display: inline-block;    /* Permite aplicar espaçamento vertical */
+  padding: 10px 20px;    
+
+}
+
+.tabela {
+    display: grid;
+    place-items: center; /* Centraliza na horizontal e na vertical ao mesmo tempo */
+    height: 10vh;
+    background-color:gray;
+    height: 900px;
+    width: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0,0.1);
+    font-size: 45px;
+    font-family: 'Inter' sans-serif;
+
+}
+
+table {
+        width: 100%;
+        padding: 12px 15px;
+        width: 80%;
+        height:100%;
+        animation: animacaoTabela 5s;
+        animation-iteration-count: infinite;
+        }
+
+    @keyframes animacaoTabela {
+            from {
+                background-color: gray;
+                border-color: black;
+                color: white;
+                border-radius: 30px;
+            }
+
+            to {
+                background-color: gray;
+                border-color: black;
+                color: black;
+                border-radius: 30px;
+            }
+        }
+
+.cima {
+    display: flex;
+    padding-top: 40px;
+    background-color: #181818;
+    padding-left: 300px;
+    font-family: 'Inter', sans-serif;
+    gap: 100px;
+    padding-bottom: 20px;
+   
+  
+   
+   
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 35px;
+    color: white;
+    font-size: 25px;
+}
+
+.fa-apple {
+    font-size: 35px;   /* Controla o tamanho do símbolo */
+    color: #F5F5F7;    /* Define a cor (ex: o branco suave da Apple) */
+}
+
+#titulo {
+    padding-left: 40px;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 30px;
+}
+
+.links {
+    padding-left: 240px;
+    display: flex;
+    gap: 30px;
+    
+    
+}
+
+.icones {
+    color: white;
+    font-size: 25px;
+    display: flex;
+    gap: 40px;
+    padding-left: 120px;
+}
+
+.meio {
+    padding-left: 350px;
+    padding-top: 70px;
+    padding-bottom: 40px;
+  
+  
+    background-color: #121212 ;
+  
+    padding-bottom: 40px;
+    display: flex;
+}
+
+
+
+
+.meio img {
+    width: 900px;
+    height: auto;
+   
+
+}
+
+.botoes {
+    width: 800px;
+    display: flex;
+    gap: 40px;
+    font-size: 60px;
+    
+   
+}
+
+#comprar, #saiba {
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 650px;
+    height: auto;
+}
+
+.caixa-alta {
+    font-size: 80px;
+    color: white;
+}
+
+#menor {
+    font-size: 30px;
+    color: gray;
+}
+
+#comprar {
+    width: 200px;
+    height: 45px;
+    color: black;
+    border: none;
+    border-radius: 20px;
+}
+
+#saiba {
+    width: 200px;
+    height: 45px;
+    color: white;
+    border: 2px solid white;
+    border-radius: 20px;
+    background-color: black;
+}
+
+.vantagens {
+    display: flex;
+    gap: 100px;
+    padding-bottom: 20px;
+    padding-top: 40px;
+    background-color: white;
+    width: 70%;
+    justify-content: center;
+    margin: 0 auto; /*centraliza a caixa inteira no meio da tela */
+    font-size: 25px;
+    
+}
+
+.entrega {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.entrega i {
+    font-size: 35px;
+    color: #000;
+    background-color: white;
+}
+
+.compra {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.parcelamento {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.compra i {
+    font-size: 35px;
+    color: #000;
+    background-color: white;
+}
+
+.parcelamento i {
+    font-size: 35px;
+    color: #000;
+    background-color: white;
+}
+
+.nossos {
+    display: flex;
+    justify-content: center;
+    gap: 950px;
+    font-size: 30px;
+}
+
+#sla {
+    color: gray;
+}
+
+
+
+
+.faq-section {
+  background-color: #eae8e1; /* Mesmo tom bege/creme da sua landing page */
+  padding: 60px 20px;
+  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Segoe UI", Roboto, sans-serif;
+}
+
+.faq-container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.faq-header {
+  text-align: left;
+  margin-bottom: 32px;
+}
+
+.faq-subtitle {
+  font-size: 20PX;
+  color: #6e6e73;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  display: block;
+  margin-bottom: 4px;
+}
+
+.faq-header h2 {
+  font-size: 28px;
+  font-weight: 600;
+  color: #1d1d1f;
+  margin: 0;
+  letter-spacing: -0.5px;
+}
+
+.faq-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+.faq-card {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 28px 24px;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.03);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.faq-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.06);
+}
+
+.faq-card h3 {
+  font-size: 25px;
+  font-weight: 600;
+  color: #1d1d1f;
+  margin: 0 0 10px 0;
+  line-height: 1.3;
+}
+
+.faq-card p {
+  font-size: 20px;
+  color: #6e6e73;
+  line-height: 1.5;
+  margin: 0;
+}
+
+#perguntas {
+    font-size: 40px;
+}
+

@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    //cadatro
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 140px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 70px;
+}
+
+
+.cadastro {
+    width: 80%;
+   text-align: center;
+   padding-top: 0;
+   display: flex;
+   border: none;
+   border-radius: 30px;
+   padding-bottom: 0;
+   align-items: flex-start;
+   justify-content: flex-start;
+   padding-left: 0;
+   height: 500px;
+   box-shadow: 0px 10px 20px #3B1E54;
+
+
+}
+
+#bem-vindo {
+    font-size: 35px;
+}
+
+#texto {
+    font-size: 15px;
+}
+
+.esquerdo {
+    width: 45%;
+    height: 100%;
+    overflow: hidden;
+    border: none;
+    border-radius: 60px;
+    background-color: #3B1E54;
+    border-radius: 30px;
+    padding: 40px 20px;
+    text-align: center;
+    color: white;
+    padding-top: 100px;
+    
+  
+}
+
+
+
+
+
+.criar {
+   padding-left: 130px;
+   padding-top: 60px;
+   font-size: 36px;
+   color: #9B72CF;
+   font-family: 'Permanent+Marker', 'Permanent Marker', cursive;
+  
+  
+}
+
+.direito input {
+    border-radius: 30px;
+    border: none;
+    background-color: white;
+    width: 250px;
+    height: 50px;
+    padding-left: 30px;
+    
+   
+}
+
+.direito input::placeholder {
+    color: #9B72CF;
+    opacity: 1;
+  
+}
+
+
+
+
+
+.direito button {
+    width: 180px;
+    height: 30px;
+    color: white; 
+    border-radius: 30px;
+    border: none;
+    background-color: #3B1E54;
+}
+
+.social-login {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding-left: 50px;  
+  
+
+}
+
+
+.google {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border: 2px solid #3B1E54;
+    background-color: white;
+    font-size: 20px;
+    padding-top: 10px;
+
+}
+
+.email-icone {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border: 2px solid #3B1E54;
+    background-color: white;
+    font-size: 20px;
+    padding-top: 10px;
+
+}
+
+.git{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border: 2px solid #3B1E54;
+    background-color: white;
+    font-size: 20px;
+    padding-top: 10px;
+}
+
